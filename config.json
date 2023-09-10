@@ -1,0 +1,67 @@
+{
+  "threads": 10,
+  "proxy": "http://username:password@ip:port",
+  "leakcheck_api_key": "API_KEY",
+  "telegram_bot_api_key": "API_KEY",
+  "telegram_channel_chat_id": "CHAT_ID",
+  "telegram_admin_chat_id": "CHAT_ID",
+  "telegram_view_minimum": 1000,
+  "telegram_activated": false,
+  "browser_language": "en-US",
+  "minimum_views": 10000,
+  "video_before": "2011-01-01",
+  "max_proxy_fails": 50,
+  "proxy_timeout": 3,
+  "autosave_intervall": 1,
+
+  "accounts-1k-10k": [
+    {
+      "email": "EMAIL@gmail.com",
+      "authorization": "SAPISIDHASH",
+      "cookie": "FULL_COOKIE",
+      "x-goog-visitor-id": "VISITOR_ID",
+      "x-goog-authuser": "0"
+    },
+    {
+      "email": "EMAIL@gmail.com",
+      "authorization": "SAPISIDHASH",
+      "cookie": "FULL_COOKIE",
+      "x-goog-visitor-id": "VISITOR_ID",
+      "x-goog-authuser": "0"
+    }
+  ],
+
+  "accounts-10k-100k": [
+    {
+      "email": "EMAIL@gmail.com",
+      "authorization": "SAPISIDHASH",
+      "cookie": "FULL_COOKIE",
+      "x-goog-visitor-id": "VISITOR_ID",
+      "x-goog-authuser": "0"
+    },
+    {
+      "email": "EMAIL@gmail.com",
+      "authorization": "SAPISIDHASH",
+      "cookie": "FULL_COOKIE",
+      "x-goog-visitor-id": "VISITOR_ID",
+      "x-goog-authuser": "0"
+    }
+  ],
+
+  "accounts-100k+": [
+    {
+      "email": "EMAIL@gmail.com",
+      "authorization": "SAPISIDHASH",
+      "cookie": "FULL_COOKIE",
+      "x-goog-visitor-id": "VISITOR_ID",
+      "x-goog-authuser": "0"
+    },
+    {
+      "email": "EMAIL@gmail.com",
+      "authorization": "SAPISIDHASH",
+      "cookie": "FULL_COOKIE",
+      "x-goog-visitor-id": "VISITOR_ID",
+      "x-goog-authuser": "0"
+    }
+  ]
+}
